@@ -1,0 +1,44 @@
+<html>  
+  <head>  
+    <title>Cyborg Ladybird</title>  
+	
+	<style type="text/css">
+          * {
+              margin: 0px;
+              padding:0px;
+          }
+          #canvas {
+              position:absolute;
+              left:0px;
+              top:0px;
+              background-color: #EEEEEE;
+          }
+
+	</style>
+  </head>  
+
+  <body> 
+
+    <canvas id='canvas'></canvas>
+
+    <!-- Platform layer -->
+    <script src="../template/Canvas.js"></script>
+    <script src="../template/Input.js"></script>
+    <script src="../template/FileSaver.js"></script>
+    <script src="../template/Files.js"></script>
+
+    <!-- Some useful functions -->
+    <script src="../template/Utils.js"></script>
+    <script src="../template/Figures.js"></script>
+
+    <!-- Game code -->
+	<script src="movable.js"></script>
+	<script src="drop_down.js"></script>
+	<script src="ladybird.js"></script>
+
+    <!-- This file launches the game -->
+    <script src="../template/Loop.js"></script>
+
+
+  </body>  
+</html>  
